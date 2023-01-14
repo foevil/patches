@@ -88,7 +88,7 @@
                 "do": ""
             },
             "match": "((..createElement|children:\\(.{1,7}\\))\\(....,{source:).....get\\(\"about.copyright\",.\\),paragraphClassName:.}\\)",
-            "replace": "$1\"<h3>More about FSpot</h3><a href='https://ferozomer.cf'>Website</a><br/><a href='https://t.me/Invisiblemahn'>Telegram</a><br/><a href=''>Moded By Feroz Omer</a><br> <br/><h4>DISCLAIMER</h4>FSpot is a modified version of the official Spotify client, provided as an evaluation version, you use it at your own risk.\"})"
+            "replace": "$1\"<h3>More about FSpot</h3><a href='https://t.me/Invisiblemahn'>Telegram</a><br/><a href=''>Patched and Customized By Feroz Omer</a><br> <br/><h4>DISCLAIMER</h4>FSpot is a modified version of the official Spotify client, provided as an evaluation version, you use it at your own risk.\"})"
         },
         "podcastsoff": {
             "version": {
