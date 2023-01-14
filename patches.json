@@ -88,7 +88,7 @@
                 "do": ""
             },
             "match": "((..createElement|children:\\(.{1,7}\\))\\(....,{source:).....get\\(\"about.copyright\",.\\),paragraphClassName:.}\\)",
-            "replace": "$1\"<h3>More about FSpot</h3><a href='https://t.me/Invisiblemahn'>Telegram</a><br/><a href=''>Patched and Customized By Feroz Omer</a><br> <br/><h4>DISCLAIMER</h4>FSpot is a modified version of the official Spotify client, provided as an evaluation version, you use it at your own risk.\"})"
+            "replace": "$1\"<h3>More about SpotX</h3><a href='https://t.me/Invisiblemahn'>Telegram</a><br/><a href=''>Patched And Customized By Feroz Omer</a><br/> <br/><h4>DISCLAIMER</h4>SpotX is a modified version of the official Spotify client, provided as an evaluation version, you use it at your own risk.\"})"
         },
         "podcastsoff": {
             "version": {
@@ -308,13 +308,13 @@
                     "background": "#13101C",
                     "maxmatch": "#534D6F"
                 },
-                "brown": {
-                    "pasttext": "#E40909B3",
-                    "current": "#C2C2C2",
-                    "next": "#CA861A",
-                    "hover": "#0FD40F",
+                "relish": {
+                    "pasttext": "#9D2117",
+                    "current": "#C8C8C8",
+                    "next": "#C8A032",
+                    "hover": "#E5CB8B",
                     "background": "#121212",
-                    "maxmatch": "#C2C2C2"
+                    "maxmatch": "#787878"
                 }
             }
         },
@@ -397,7 +397,7 @@
             "replace": "$1 null;"
         },
         "byspotx": {
-            "add": "// Patched by FSpot"
+            "add": "// Patched by SpotX"
         },
         "offrujs": {
             "version": {
@@ -701,7 +701,7 @@
         "newhome2": {
             "version": {
                 "from": "1.1.97",
-                "do": ""
+                "do": "1.2.2"
             },
             "match": "(Enable the new home structure and navigation\",values:.,default:.)(.DISABLED)",
             "replace": "$1.ENABLED_CENTER"
